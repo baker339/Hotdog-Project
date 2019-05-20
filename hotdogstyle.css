@@ -1,0 +1,148 @@
+html {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+div {
+  border-radius: 4px;
+}
+
+p, h1, h2, h3, button {
+  font-family: Tahoma, Geneva, sans-serif;
+  font-weight: lighter;
+  color: #62666a;
+}
+
+.nav {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  align-content: center;
+}
+
+ul#navBar {
+  display: inline-block;
+  list-style-type: none;
+  padding: 3px;
+  margin: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  top: 0;
+  text-align: center;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+li#navBar {
+  float: left;
+}
+
+li#navBar a {
+  display: inline-block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+  border-radius: 4px;
+}
+
+li#navBar a:hover {
+  background-color: #004b65;
+  color: white;
+}
+
+li.active a{ /* change thiss selector */
+  background-color: #0084a2;
+  color: #FFFFFF !important;
+  box-shadow: 0px 5px 10px #888888;
+}
+
+.site-footer {
+    background: #e7e7ef;
+    border-radius: 4px;
+}
+
+#footer-content {
+    color: white;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+#footer-left {
+  float: left;
+  padding-left: 1%;
+}
+
+#footer-right {
+  float: right;
+  padding-right: 1%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  text-align: left;
+  align-self: center;
+  vertical-align: middle;
+}
+
+button {
+  background-color: #0084a2;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0px 5px 20px #888888;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004b65;
+}
+
+.index-button {
+  background-color: #e7e7ef;
+  height: 100%; 
+  width: 100%;
+  vertical-align: middle;
+  align-content: center;
+  outline: 3px solid #0084a2; 
+  outline-offset: -10px;
+}
+
+#index-button-content {
+  padding: 10%;
+  text-align: center;
+
+}
+
+.menu-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 3%;
+  box-shadow: 0px 5px 10px#888888;
+}
+
+
+
+
